@@ -12,7 +12,7 @@ public class Exercicio1 {
         num = sc.nextInt();
 
         if (num < 0) {
-            System.out.println(num + " é negatio");
+            System.out.println(num + " é negativo");
         } else {
             System.out.println(num + " é positivo");
         }
