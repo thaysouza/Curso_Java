@@ -2,7 +2,7 @@
 public class Split {
       public static void main(String[] args) {
            
-          String nome = "tayane souza";
+          String nome = "Tayane Souza";
           
           String[] vetor = nome.split(" ");
           
