@@ -13,17 +13,17 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         
-        Product product = new Product();
         
         System.out.println("Informe os dados do Produto: ");
         System.out.println("Nome: ");
-        product.nome = sc.nextLine();
+        String nome = sc.nextLine();
         System.out.println("Preço: ");
-        product.preco = sc.nextDouble();
+        double preco = sc.nextDouble();
         System.out.println("Quantidade no estoque: ");
-        product.quantidade = sc.nextInt();
+        int quantidade = sc.nextInt();
+         Product product = new Product(nome, preco, quantidade);
         
-        System.out.println(product);
+   
         
        /* System.out.println("Dados do estoque");
         System.out.println("-------------------------");
@@ -34,7 +34,7 @@ public class Program {
 
        System.out.println();
        System.out.print("Informe o numero de produtos para serem adicionados no estoque: ");
-       int quantidade = sc.nextInt();
+       quantidade = sc.nextInt();
        product.addProdutos(quantidade);
        
        System.out.println();
