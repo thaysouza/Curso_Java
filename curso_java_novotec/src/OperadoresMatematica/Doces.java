@@ -14,7 +14,7 @@ public class Doces {
                
        double Total = bombom + paçoca + bala + doceDeLeite;
  
-    System.out.println("O valor total é: " + Total);
+    System.out.println("O valor total é : " + Total);
  
     }
     
