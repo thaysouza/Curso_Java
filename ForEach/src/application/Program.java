@@ -12,6 +12,7 @@ public class Program {
          
          System.out.println("____________________");
          
+         //para cada Objeto obj contido no vetor "vetor" faça
          for(String obj : vetor){
              System.out.println(obj);
          }
