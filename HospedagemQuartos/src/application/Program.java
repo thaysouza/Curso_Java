@@ -8,6 +8,7 @@ public class Program {
 
     public static void main(String[] args) throws ParseException {
         Scanner sc = new Scanner(System.in);
+        
         Alugar[] vetor = new Alugar[10];
         System.out.print("Quantos quartos deseja? ");
         int n = sc.nextInt();
